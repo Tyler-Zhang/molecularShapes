@@ -1,0 +1,59 @@
+.main-site {
+  font-family: "ComicNeue"; 
+  width: 2000px;
+  margin-left: -1000px;
+  left: 50%;
+  position: relative;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+@font-face{font-family: "ComicNeue"; src: url("fonts/ComicNeue.ttf");}
+@font-face{font-family: "ComicNeue-Bold"; src: url("fonts/ComicNeue-Bold.ttf");}
+@font-face{font-family: "Helvetica"; src: url("fonts/HelvLight Regular.ttf");}
+@font-face{font-family: "HelveticaB"; src: url("fonts/Helvetica Bold.ttf");}
+
+img {
+  user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  position:absolute;
+}
+h1{
+font-family:"HelveticaB";
+font-size: 60px;
+color:#1fda9a;
+width:100%;
+text-align:center;
+}
+h2{
+font-family:"Helvetica";
+font-size: 40px;
+color:#1fda9a;
+width:100%;
+
+}
+h3{
+font-family:"HelveticaB";
+font-size: 60px;
+color:#f7eac8;
+width:100%;
+text-align:center;
+}
+h4{
+font-family:"Helvetica";
+font-size: 40px;
+color:#f7eac8;
+width:100%;
+
+}
+div{
+position:absolute;
+}
+p{
+font-size:25px;
+font-weight:bold;
+}
